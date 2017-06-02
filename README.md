@@ -23,22 +23,22 @@ There are tests provided in ```pgp.test```
 
 ### Decrypt
 
-**decrypt:testDecryptAndVerifyFile:** Decrypt file and verify its signature
-**decrypt:testDecryptAndVerifyString:** Decrypt signed string and verify its signature
-**decrypt:testDecryptAndVerifyUnsignedString:** Decrypt unsigned string and verify its signature
-**decrypt:testDecryptFile:** Decrypt file (no signature verification)
-**decrypt:testDecryptString:** Decrypt string (no signature verification)
+- **decrypt:testDecryptAndVerifyFile:** Decrypt file and verify its signature
+- **decrypt:testDecryptAndVerifyString:** Decrypt signed string and verify its signature
+- **decrypt:testDecryptAndVerifyUnsignedString:** Decrypt unsigned string and verify its signature
+- **decrypt:testDecryptFile:** Decrypt file (no signature verification)
+- **decrypt:testDecryptString:** Decrypt string (no signature verification)
 
 ### Encrypt
-**encrypt:testEncryptAndSignFile:** Encrypt and sign file
-**encrypt:testEncryptAndSignString:** Encrypt and sign string
-**encrypt:testEncryptFile:** Encrypt file (no signing)
-**encrypt:testEncryptString:** Encrypt string (no signing)
+- **encrypt:testEncryptAndSignFile:** Encrypt and sign file
+- **encrypt:testEncryptAndSignString:** Encrypt and sign string
+- **encrypt:testEncryptFile:** Encrypt file (no signing)
+- **encrypt:testEncryptString:** Encrypt string (no signing)
 
 ### Keys
-**keys:testListAlgorithms:** List all supported algorithms
-**keys:testReadPrivateKeys:** Read a private key by user id
-**keys:testReadPublicKeys:** Read a public key by user id
+- **keys:testListAlgorithms:** List all supported algorithms
+- **keys:testReadPrivateKeys:** Read a private key by user id
+- **keys:testReadPublicKeys:** Read a public key by user id
 
 
 ## Key-Configuration
