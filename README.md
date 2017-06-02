@@ -19,7 +19,7 @@ To install the project on your local development environment follow these steps.
 
 ## Run tests
 
-There are tests provided in ```pgp.tests```
+There are tests provided in ```pgp.test```
 
 ### Decrypt
 
