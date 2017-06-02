@@ -58,7 +58,7 @@ The package comes with two RSA keys for users ```alice``` and ```bob```. You can
 
 ## Supported Algorithms
 
-###Key Exchange Algorithms
+### Key Exchange Algorithms
 - ELGAMAL_ENCRYPT
 - DSA
 - RSA
