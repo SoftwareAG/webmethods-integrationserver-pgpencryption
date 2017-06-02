@@ -13,8 +13,8 @@ To install the project on your local development environment follow these steps.
 1. Checkout the repository to your development environment
 2. Copy the ```PGP``` folder to ```<install_dir>/IntegrationServer/instances/<instance>/packages```.
 3. Download the following Bouncy Castle libraries and copy to ```<install_dir>/IntegrationServer/instances/<instance>/packages/PGP/code/jars/static```
-3.1. http://www.bouncycastle.org/archive/145/bcprov-jdk15-145.jar
-3.2. http://www.bouncycastle.org/archive/145/bcpg-jdk15-145.jar
+    1. http://www.bouncycastle.org/archive/145/bcprov-jdk15-145.jar
+    2. http://www.bouncycastle.org/archive/145/bcpg-jdk15-145.jar
 3. Restart Integration Server
 
 ## Run tests
