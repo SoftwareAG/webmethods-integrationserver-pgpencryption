@@ -44,7 +44,7 @@ There are tests provided in ```pgp.test```
 ## Key-Configuration
 
 Configuration of RSA keys is done in ```\config\config.xml```. A demo configuration is provided with this package.
-```Note: package assumes keys to be located in \pub\keys. In the configuration provide filenames only (without path).
+```Note: package assumes keys to be located in \pub\keys. In the configuration provide filenames only (without path).```
 
 ## Provided RSA keys
 
