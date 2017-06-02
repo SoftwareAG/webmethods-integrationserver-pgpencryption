@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<keys>
+	<key userId="alice">
+	  <pub>
+		<filename>alice-pub.asc</filename>
+		<exchangeAlgorithm>RSA</exchangeAlgorithm>
+	  </pub>
+	  <sec>
+		<filename>alice-sec.asc</filename>
+		<secret>alice</secret>
+	  </sec>
+	</key>
+	<key userId="bob">
+	  <pub>
+		<filename>bob-pub.asc</filename>
+		<exchangeAlgorithm>RSA</exchangeAlgorithm>
+	  </pub>
+	  <sec>
+		<filename>bob-sec.asc</filename>
+		<secret>bob</secret>
+	  </sec>
+	</key>
+</keys>

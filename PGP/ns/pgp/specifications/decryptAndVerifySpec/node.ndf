@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">spec</value>
+  <value name="svc_subtype">unknown</value>
+  <value name="svc_sigtype">java 3.5</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_in" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">cipherTextPath</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <record name="field_content_type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">string</value>
+              </record>
+            </array>
+          </record>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">cipherTextBytes</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="wrapper_type">byte []</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">cipherTextString</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <record name="field_content_type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">string</value>
+              </record>
+            </array>
+          </record>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">cipherTextStream</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">plainTextEncoding</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">privateKeyRingCollection</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">privateKeyPassword</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">publicKeyRingCollection</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_usereditable">false</value>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">outputType</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <array name="field_options" type="value" depth="1">
+            <value>String</value>
+            <value>Bytes</value>
+            <value>Stream</value>
+            <value>File</value>
+          </array>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">outputPath</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">plainTextPath</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <record name="field_content_type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">string</value>
+              </record>
+            </array>
+          </record>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">plainTextBytes</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="wrapper_type">byte []</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">plainTextString</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <record name="field_content_type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">string</value>
+              </record>
+            </array>
+          </record>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">plainTextStream</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <null name="field_usereditable"/>
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">verified</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <record name="field_content_type" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">reference</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+            <array name="targetNames" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                <value name="ncName">boolean</value>
+              </record>
+            </array>
+          </record>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+  </record>
+  <value name="node_comment">Input
+==========================
+cipherTextPath		  Path to encrypted file
+cipherTextBytes	          Byte array with encrypted data
+cipherTextString	  ASCII-armored encrypted data
+cipherTextStream	  Encrypted input stream (extends Java's InputStream)
+plainTextEncoding	  If the plainText is set, the character set encoding needs to be given.
+			  Use UTF-8 if unsure
+privateKeyRingCollection  Obtained through the gcs.pgp.services.keys:readPrivateKeys service
+privateKeyPassword	  Password for the private key
+publicKeyRingCollection   Obtained through the gcs.pgp.services.keys:readPublicKeys service
+outputType		  Output format (String, byte[], OutputStream, File)
+outputPath		  If outputType is File, the path to write to
+
+Either of the cipherText* arguments above MUST be provided. 
+The input stream is NOT closed automatically and must be manually closed.
+If the publicKeyRingCollection is set, verification of the signature is attempted.
+If the data is not signed, verification is ignored.
+
+Output
+==========================
+plainTextPath		  The location of the decrypted plain text file
+plainTextBytes		  The decrypted plain text in bytes
+plainTextString		  The decrypted plain text
+plainTextStream		  The decrypted plain text as OutputStream
+verified		   0 : Data was not signed (success)
+			   1 : Signature was verified (success)
+			  -1 : Signature was not verified (failed)
+
+Either of the plainText* arguments above is returned, dependent on the outputType.
+In case a stream is returned, you MUST close the stream manually.</value>
+  <value name="stateless">no</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <null name="auditfields_input"/>
+  <null name="auditfields_output"/>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+  <value name="pipeline_option">1</value>
+  <null name="originURI"/>
+  <value name="modifiable">true</value>
+  <value name="is_public">false</value>
+</Values>

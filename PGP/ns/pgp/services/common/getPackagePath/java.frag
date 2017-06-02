@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getPackagePath</value>
+  <value name="spec">wx.pgp.specifications:getPackagePathSpec</value>
+  <value name="subtype">unknown</value>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">DQovLyBIYW5kbGUgaW5wdXQgcGFyYW1zDQpJRGF0YUN1cnNvciBwYyA9IHBpcGVsaW5lLmdldEN1
+cnNvcigpOw0KU3RyaW5nIHBhY2thZ2VOYW1lID0gSURhdGFVdGlsLmdldFN0cmluZyhwYywgInBh
+Y2thZ2UiKTsNClN0cmluZyBzdWJkaXIgICAgICA9IElEYXRhVXRpbC5nZXRTdHJpbmcocGMsICJz
+dWJEaXIiKTsNClN0cmluZyBmaWxlbmFtZSAgICA9IElEYXRhVXRpbC5nZXRTdHJpbmcocGMsICJm
+aWxlTmFtZSIpOw0KDQppZiAocGFja2FnZU5hbWUgPT0gbnVsbCkgew0KICAgIHBhY2thZ2VOYW1l
+ID0gU2VydmljZS5nZXRTZXJ2aWNlRW50cnkoKS5nZXRQYWNrYWdlKCkuZ2V0TmFtZSgpOw0KfQ0K
+DQpTdHJpbmcgcGFja2FnZURpciA9IFNlcnZlci5nZXRSZXNvdXJjZXMoKS5nZXRQYWNrYWdlRGly
+KHBhY2thZ2VOYW1lKQ0KICAgIC5nZXRBYnNvbHV0ZVBhdGgoKS5jb25jYXQoRmlsZS5zZXBhcmF0
+b3IpOw0KDQppZiAobmV3IEZpbGUocGFja2FnZURpcikuZXhpc3RzKCkpIHsNCiAgICBpZiAoc3Vi
+ZGlyICE9IG51bGwpIHsNCiAgICAgICAgcGFja2FnZURpciA9IHBhY2thZ2VEaXIuY29uY2F0KHN1
+YmRpcikuY29uY2F0KEZpbGUuc2VwYXJhdG9yKTsNCiAgICB9DQogICAgaWYgKGZpbGVuYW1lICE9
+IG51bGwpIHsNCiAgICAgICAgcGFja2FnZURpciA9IHBhY2thZ2VEaXIuY29uY2F0KGZpbGVuYW1l
+KTsNCiAgICB9DQogICAgSURhdGFVdGlsLnB1dChwYywgInBhdGgiLCBwYWNrYWdlRGlyKTsNCn0N
+CnBjLmRlc3Ryb3koKTsNCg0K</value>
+</Values>
