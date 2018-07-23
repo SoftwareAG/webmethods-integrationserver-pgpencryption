@@ -1,5 +1,4 @@
-/*******************************************************************************
- * /*
+/*
  * * Copyright ©  2018 Software AG, Darmstadt, Germany and/or its licensors
  * *
  * * SPDX-License-Identifier: Apache-2.0
@@ -17,7 +16,6 @@
  * *  limitations under the License.                                                            
  * *
  * */
- *******************************************************************************/
 package com.softwareag.pgp;
 
 import java.io.IOException;
