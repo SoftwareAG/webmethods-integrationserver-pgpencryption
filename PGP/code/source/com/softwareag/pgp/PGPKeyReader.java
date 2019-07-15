@@ -1,5 +1,5 @@
 /*
- * * Copyright ©  2018 Software AG, Darmstadt, Germany and/or its licensors
+ * * Copyright ï¿½  2018 Software AG, Darmstadt, Germany and/or its licensors
  * *
  * * SPDX-License-Identifier: Apache-2.0
  * *
@@ -25,6 +25,7 @@ import java.io.InputStream;
 import java.security.NoSuchProviderException;
 import java.util.ArrayList;
 import java.util.Iterator;
+
 import org.bouncycastle.openpgp.PGPException;
 import org.bouncycastle.openpgp.PGPPrivateKey;
 import org.bouncycastle.openpgp.PGPPublicKey;
@@ -45,14 +46,16 @@ public class PGPKeyReader {
         throws IOException, PGPException {
     
         PGPPublicKeyRingCollection coll = null;
-        InputStream in = null;
-        try {
+        
+        
+        try (        		
             // Access file as stream
-            in = new FileInputStream(new File(path));
-    
+    		InputStream in = new FileInputStream(new File(path));
             // Get the decoder stream (auto-disarming)
-            in = PGPUtil.getDecoderStream(in);
-    
+    		InputStream din = PGPUtil.getDecoderStream(in);
+    		)
+        {
+                    
             // Open the key ring
             coll = new PGPPublicKeyRingCollection(in);
         } catch (IOException ioe) {
@@ -61,11 +64,6 @@ public class PGPKeyReader {
         } catch (PGPException pgpe) {
             //logger.error(pgpe.getMessage());
             throw pgpe;
-        } finally {
-            try {
-                in.close();
-            } catch (Exception e) {
-            }
         }
         return coll;
     }
@@ -149,13 +147,15 @@ public class PGPKeyReader {
         throws IOException, PGPException {
 
         PGPSecretKeyRingCollection coll = null;
-        InputStream in = null;
-        try {
+        
+        try (
             // Access file as stream
-            in = new FileInputStream(new File(path));
-
+    		InputStream in = new FileInputStream(new File(path));
             // Get the decoder stream (auto-disarming)
-            in = PGPUtil.getDecoderStream(in);
+    		InputStream din = PGPUtil.getDecoderStream(in);
+        	)
+        
+        {
 
             // Open the key ring
             coll = new PGPSecretKeyRingCollection(in);
@@ -165,11 +165,6 @@ public class PGPKeyReader {
         } catch (PGPException pgpe) {
             //logger.error(pgpe.getMessage());
             throw pgpe;
-        } finally {
-            try {
-                in.close();
-            } catch (Exception e) {
-            }
         }
         return coll;
     }
